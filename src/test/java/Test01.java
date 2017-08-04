@@ -31,7 +31,7 @@ public class Test01{
     @Test
     public void threeDigit2(){
         long actualResult = final01.findMax(111);
-        long expectedResult = 99;
+        long expectedResult = 111;
         assertEquals(expectedResult, actualResult);
     }
 
@@ -53,6 +53,20 @@ public class Test01{
     public void veryMuchDigit2(){
         long actualResult = final01.findMax(1111110);
         long expectedResult = 999999;
+        assertEquals(expectedResult, actualResult);
+    }
+
+    @Test
+    public void threeDigit3(){
+        long actualResult = final01.findMax(100);
+        long expectedResult = 99;
+        assertEquals(expectedResult, actualResult);
+    }
+
+    @Test
+    public void veryMuchDigit3(){
+        long actualResult = final01.findMax(124);
+        long expectedResult =124;
         assertEquals(expectedResult, actualResult);
     }
    /* @Test
