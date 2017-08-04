@@ -36,5 +36,5 @@ public class Final01{
         return number;
     }
 
-  
+
 }
